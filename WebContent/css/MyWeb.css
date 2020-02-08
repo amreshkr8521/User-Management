@@ -1,0 +1,27 @@
+<style>
+a:hover {
+	color :red
+}
+	  body  {
+	 
+            background-image: url("images/img.jpg");
+           
+             
+ 			 height: 100%; 
+ 			 background-position: center;
+ 			 background-repeat: no-repeat;
+  			background-size: cover;
+         }         
+  #field{
+   height: 100px;
+            background: -webkit-linear-gradient(left, red , blue);
+            background: -o-linear-gradient(right, red, blue); 
+            background: -moz-linear-gradient(right, red, blue);
+            background: linear-gradient(to right, red , blue);
+  }    
+  
+  signUp_Body {
+  
+  	background-color : LightGray
+  }   
+</style>

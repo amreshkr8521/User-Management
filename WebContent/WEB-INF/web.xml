@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.bridgelabz.usermanagement.controller.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>com.bridgelabz.usermanagement.controller.SignUp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignUp</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>forgot</servlet-name>
+		<servlet-class>com.bridgelabz.LoginPage.usermanagement.controller.forgotPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>forgot</servlet-name>
+		<url-pattern>/forgot</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>com.bridgelabz.usermanagement.controller.Welcome</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+	<servlet-name>Registration</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.RegistrationHistory</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Registration</servlet-name>
+	<url-pattern>/Registration</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>male</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.MaleList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>male</servlet-name>
+	<url-pattern>/male</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>Age</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.Age</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Age</servlet-name>
+	<url-pattern>/Age</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+	<servlet-name>location</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.Location</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>location</servlet-name>
+	<url-pattern>/location</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+	<servlet-name>Female</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.Female</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Female</servlet-name>
+	<url-pattern>/Female</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+	<servlet-name>update</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>update</servlet-name>
+	<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	<servlet-name>delete</servlet-name>
+	<servlet-class>com.bridgelabz.usermanagement.controller.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>delete</servlet-name>
+	<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>LoginPage.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
